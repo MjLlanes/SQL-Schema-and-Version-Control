@@ -1,0 +1,13 @@
+/db
+  /migrations
+      001_volunteers.sql
+      002_projects.sql
+      003_link.sql
+
+CREATE TABLE organization ( id INT, name VARCHAR(100), contact number INT, email VARCHAR(100)); 
+CREATE TABLE volunteers ( id INT, name VARCHAR(100), email VARCHAR(100));
+CREATE TABLE location ( id INT, name VARCHAR(100));
+CREATE TABLE skills ( id INT, name VARCHAR(100));
+
+
+
